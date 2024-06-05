@@ -31,10 +31,22 @@ Ce projet est une application qui utilise l'API pour afficher une liste d'articl
     npm install
     ```
 
-6. Démarrez l'application :
+6. Installez `ngrok` pour le partage de l'application en local :
+    ```sh
+    npm install ngrok -g
+    ```
+
+7. Démarrez l'application :
     ```sh
     npx expo start
     ```
+
+8. Une fois l'application lancée, vous pouvez partager votre application en local en exécutant `ngrok` :
+    ```sh
+    ngrok http 19006
+    ```
+
+   Copiez le lien généré par `ngrok` (par exemple, `http://abcd1234.ngrok.io`) pour partager votre application avec d'autres appareils ou personnes.
 
 ## API
 
